@@ -11,7 +11,10 @@
 ::-webkit-scrollbar-track {
     background: black;
 }
-
+@font-face {
+    font-family: Vandalism;
+    src: url(./Components/Assets/Vandalism.ttf);
+}
 @layer components {
     .background {
         background-image: url(./Components/Assets/agccoverrr.jpg);
@@ -28,5 +31,8 @@
         bottom: 0;
         left: 0;
         background: rgba(0, 0, 0, 0.3);
+    }
+    .font {
+        font-family: Vandalism;
     }
 }

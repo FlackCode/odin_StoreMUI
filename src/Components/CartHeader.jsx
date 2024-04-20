@@ -6,7 +6,7 @@ export default function CartHeader() {
             <Link to='/'>
             <div className='flex flex-row gap-2 items-center hover:cursor-pointer'>
                 <BsArrowLeft className='text-white text-xl '/>
-                <h1 className='text-white font-bold xl:text-2xl xsm: text-lg select-none'>Return to home page</h1>
+                <h1 className='text-white font-bold xl:text-2xl xsm: text-lg select-none font'>Return to home page</h1>
             </div>
             </Link>
         </div>

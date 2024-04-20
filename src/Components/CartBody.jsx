@@ -16,7 +16,7 @@ export default function CartBody() {
             </div>
             <div className='md:w-1/5 xsm:w-full md:h-full xsm:h-1/5 px-2 md:py-4 xsm:py-2 xsm:border-t-2 md:border-l-2 bg-black flex flex-col justify-between '>
                 <div>
-                    <h1 className='text-center text-white text-3xl font-bold'>Checkout</h1>
+                    <h1 className='text-center text-white text-3xl font-bold font'>Checkout</h1>
                 </div>
                 <div>
                     <h1 className='text-white md:text-xl xsm:text-base font-bold mb-2'>Total: ${totalAmount}</h1>
