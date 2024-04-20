@@ -4,7 +4,7 @@ export default function CartItem(props) {
     const {id, image, name, price, description} = props.data
     const { addToCart, removeFromCart, cartItems, updateCartItemCount } = useContext(ShoppingContext)
     return (
-        <div className='bg-gray-800 px-4 md:py-6 xsm:py-3 rounded-xl flex flex-row gap-4 justify-between'>
+        <div className='bg-black border-2 shadow-white shadow-sm px-4 md:py-6 xsm:py-3 rounded-xl flex flex-row gap-4 justify-between'>
             <div className='md:w-1/2 xsm:w-1/3'>
                 <img src={image} className='md:rounded-2xl xsm:rounded-xl'/>
             </div>
