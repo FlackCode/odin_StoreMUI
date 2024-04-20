@@ -1,6 +1,7 @@
 import HomePage from "./Pages/HomePage";
 import Cart from "./Pages/Cart";
 import { createBrowserRouter, RouterProvider} from 'react-router-dom'
+import ShoppingContextProvider from "./context/ShoppingContext";
 const router = createBrowserRouter([
   {
     path: '/',
@@ -13,7 +14,9 @@ const router = createBrowserRouter([
 ])
 function App() {
   return (
-    <RouterProvider router={router} />
+    <ShoppingContextProvider>
+      <RouterProvider router={router} />
+    </ShoppingContextProvider>
   )
 }
 export default App;

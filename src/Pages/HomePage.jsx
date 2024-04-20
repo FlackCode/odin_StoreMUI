@@ -2,7 +2,6 @@ import Banner from "../Components/Banner";
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import Products from "../Components/Products";
-
 export default function HomePage() {
     return (
         <>
@@ -11,8 +10,8 @@ export default function HomePage() {
             <Banner />
         </div>
         <div>
-          <Products />
-          <Footer />
+            <Products />
+            <Footer />
         </div>
         </>
     )
