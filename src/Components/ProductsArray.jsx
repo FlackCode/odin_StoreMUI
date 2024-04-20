@@ -5,7 +5,7 @@ const products = [
         id: 1,
         image: agccover,
         name: 'Product 1',
-        price: 49.99,
+        price: 50,
         description: "Short description about Product 1, info regarding the material, color, etc.",
     },
 ]
