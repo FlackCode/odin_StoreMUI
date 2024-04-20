@@ -1,19 +1,19 @@
-import Banner from "./Components/Banner";
-import Footer from "./Components/Footer";
-import Header from "./Components/Header";
-import Products from "./Components/Products";
+import HomePage from "./Pages/HomePage";
+import Cart from "./Pages/Cart";
+import { createBrowserRouter, RouterProvider} from 'react-router-dom'
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <HomePage />
+  },
+  {
+    path: 'cart',
+    element: <Cart />
+  }
+])
 function App() {
   return (
-    <>
-    <div className="flex flex-col h-screen">
-      <Header />
-      <Banner />
-    </div>
-    <div>
-      <Products />
-      <Footer />
-    </div>
-    </>
+    <RouterProvider router={router} />
   )
 }
 export default App;
